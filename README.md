@@ -1,7 +1,7 @@
 # httpredirservice
 HTTP/HTTPS redirect service.
 
-This service redirect http/https requests domain.name to www.domain.name.
+This service redirect http/https requests from domain.name to www.domain.name.
 
 Service installation with cmd:
 sc create httpredirservice displayname= "httpredirservice" binpath= "c:\httpredirservice\httpredirservice.exe" start= auto
