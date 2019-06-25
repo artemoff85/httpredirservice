@@ -1,7 +1,7 @@
 # httpredirservice
 HTTP/HTTPS redirect service.
 
-This service redirect http/https requests from domain.name to www.domain.name.
+This windows service redirect http (and https) requests, that going to domain controller (по адресу - domain.name), to webserver (по адресу - www.domain.name).
 
 Service installation with cmd:
 sc create httpredirservice displayname= "httpredirservice" binpath= "c:\httpredirservice\httpredirservice.exe" start= auto
@@ -9,5 +9,5 @@ sc create httpredirservice displayname= "httpredirservice" binpath= "c:\httpredi
 Removing service:
 sc delete httpredirservice
 
-For ssl connections you can create bind (replace certhash for your certificate footprint):
+For ssl connections (https) need to create bind (replace certhash value for your certificate footprint value):
 netsh http add sslcert ipport=0.0.0.0:443 certhash=e312908390a309183010938083f1 appid={89da6384-3455-42a1-9123-87bb4bc65816}
