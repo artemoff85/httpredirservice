@@ -1,9 +1,9 @@
 # httpredirservice
 HTTP/HTTPS redirect service.
 
-This windows service redirect http (and https) requests, that going to domain controller (по адресу - domain.name), to webserver (по адресу - www.domain.name).
+This windows service redirect http (and https) requests, that going to domain controller (on address - domain.name), to webserver (on address - www.domain.name).
 
-Service installation with cmd:
+Service installation (on domain controller) with cmd:
 sc create httpredirservice displayname= "httpredirservice" binpath= "c:\httpredirservice\httpredirservice.exe" start= auto
 
 Removing service:
