@@ -15,5 +15,5 @@ sc delete httpredirservice
 
 For ssl connections (https) need to create bind (replace certhash value for your certificate footprint value):
 ```
-netsh http add sslcert ipport=0.0.0.0:443 certhash=e312908390a309183010938083f1 appid={89da6384-3455-42a1-9123-87bb4bc65816}
+netsh http add sslcert ipport=0.0.0.0:443 certhash=e3129083900000000000000001 appid={89da6384-3455-42a1-9123-87bb4bc65816}
 ```
