@@ -11,7 +11,6 @@ namespace httpredirservice
 {
     public partial class httpredirservice : ServiceBase
     {
-        //static bool IsRun;
         static string[] prefixes = { "http://*/", "https://*:443/" };
         public httpredirservice()
         {
