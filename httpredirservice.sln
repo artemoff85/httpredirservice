@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpredirservice", "httpred
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpredirserviceapp", "httpredirserviceapp\httpredirserviceapp.csproj", "{439D6636-8228-4357-8C2F-740F29DCD7D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPRedirectorClass", "cHTTPRedirector\HTTPRedirectorClass.csproj", "{94D84536-DEF5-4F3A-9509-A297730C7D75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPRedirectorClass", "HTTPRedirector\HTTPRedirectorClass.csproj", "{94D84536-DEF5-4F3A-9509-A297730C7D75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,8 +7,8 @@
     <ProjectGuid>{94D84536-DEF5-4F3A-9509-A297730C7D75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>cHTTPRedirector</RootNamespace>
-    <AssemblyName>cHTTPRedirector</AssemblyName>
+    <RootNamespace>HTTPRedirector</RootNamespace>
+    <AssemblyName>HTTPRedirector</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -41,7 +41,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\cHTTPRedirector\HTTPRedirectorClass.csproj">
+    <ProjectReference Include="..\HTTPRedirector\HTTPRedirectorClass.csproj">
       <Project>{94d84536-def5-4f3a-9509-a297730c7d75}</Project>
       <Name>HTTPRedirectorClass</Name>
     </ProjectReference>
