@@ -4,7 +4,7 @@ HTTP/HTTPS redirect service.
 This windows service redirect http (and https) requests, that going to domain controller (on address - domain.name), to webserver (on address - www.domain.name).
 
 ## System requirements
-Windows and .net 2.0.
+OS Windows, .NET Framework 2.0 or higher.
 
 ## Installation
 Service installation (on domain controller) with cmd:
